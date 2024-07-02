@@ -11,7 +11,7 @@ enum ValidationType: String, Equatable {
     case emptyEmail
     case invalidEmail
     case emptyPassword
-    case passwordCount
+    case eightDigitPasswordCount
     case sucess
 }
 

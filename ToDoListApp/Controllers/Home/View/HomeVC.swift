@@ -113,7 +113,7 @@ class HomeVC: UIViewController {
                             
                         }else{
                             Loader.hideLoader()
-                            let alert = UIAlertController(title: "Duplicate ID", message: "The UserID already exists.", preferredStyle: .alert)
+                            let alert = UIAlertController(title: "Duplicate ID", message: "The ID already exists.", preferredStyle: .alert)
                                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                                     self.present(alert, animated: true, completion: nil)
                         }

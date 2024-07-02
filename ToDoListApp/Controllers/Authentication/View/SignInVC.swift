@@ -17,8 +17,14 @@ class SignInVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      
     }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        txtEmail.text = ""
+        txtPassword.text = ""
+    }
+    
     
     //MARK: Navigation Home Screen
     @IBAction func btnLogin(_ sender: Any) {

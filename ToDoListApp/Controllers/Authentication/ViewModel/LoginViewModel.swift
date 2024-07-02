@@ -22,7 +22,7 @@ final class LoginViewModel {
         }
 
         guard password.count > 7 else {
-            return .passwordCount
+            return .eightDigitPasswordCount
         }
 
         return .sucess
